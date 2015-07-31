@@ -1,0 +1,25 @@
+{
+  "name": "github-streak",
+  "version": "1.0.0",
+  "description": "Get Longest Github Streak by username",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpedro/github-streak.git"
+  },
+  "author": "gpedro <gpedro831@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpedro/github-streak/issues"
+  },
+  "homepage": "https://github.com/gpedro/github-streak",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.1",
+    "got": "^4.1.1",
+    "http-status": "^0.2.0"
+  }
+}
